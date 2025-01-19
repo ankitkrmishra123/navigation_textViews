@@ -14,7 +14,7 @@ Backend Setup:
 Open a terminal and navigate to the backend directory
 Create and activate a Python virtual environment:
 python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+source venv/bin/activate
 
 Install required Python packages:
 pip install -r requirements.txt
@@ -24,7 +24,6 @@ SQLALCHEMY_DATABASE_URL = "postgresql://user:password@localhost/nested_tags_tree
 Replace user and password with PostgreSQL credentials.
 
 Start the backend server:
-uvicorn main:app --reload
 
 Frontend Setup:
 Open a new terminal window
